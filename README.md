@@ -1,3 +1,3 @@
-# Ansible Collection - alvlapo.ansible_collection_ansible
+# Ansible Collection - alvlapo.ansible_toolbox_ansible
 
 Documentation for the collection.
