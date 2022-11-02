@@ -1,0 +1,14 @@
+- name: ansible-install | all
+  hosts: all
+  remote_user: root
+  become: true
+  tasks:
+  - name: Install GNUPG
+    ansible.builtin.package:
+      name: gnupg2
+      state: present
+
+  - name: include role
+    ansible.builtin.include_role:
+      name: ansible
+    tags: ansible
